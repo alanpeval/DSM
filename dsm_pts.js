@@ -2,7 +2,7 @@
 INSTITUTO AGRONÔMICO (IAC) - Pós-graduação em Agricultura Tropical e Subtropical.
 INSTITUTO DE PESQUISAS TECNOLÓGICAS (IPT) - Programa Novos Talentos.
 Código desenvolvido e compartilhado como parte integrante da tese de doutorado de Valadares (2023). VALADARES, A.P. Dados legados de levantamentos pedológicos para mapeamento digital de classes de solos em larga escala para diferentes ambientes pedogenéticos. (Tese de Doutorado) Instituto Agronômico. Campinas, SP. 2023.
-ANEXO III - Código Javascript para Mapeamento Digital de Classes de Solos com base em pixels, em larga escala, a partir de pontos de observação do solo em campo, no Google Earth Engine.
+ANEXO IV - Código Javascript para Mapeamento Digital de Classes de Solos com base em pixels, em larga escala, a partir de pontos de observação do solo em campo, no Google Earth Engine.
 */
 
 
@@ -106,4 +106,4 @@ Export.image.toAsset({
   image: mds,
   region: area
 });
-/* Fim do documento.*/
+/* Fim do script.*/
